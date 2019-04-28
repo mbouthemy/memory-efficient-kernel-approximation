@@ -14,9 +14,9 @@ The library has some requirements :
 
 To install all this requirement you can run:
 
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 ## Files structure
 The library contains the following files:
