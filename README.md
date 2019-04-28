@@ -17,7 +17,7 @@ To install all this requirement you can use the requirements.txt.
 ## Files structure
 The library contains the following files:
 
- - [main.py](https://github.com/Marin35/memory-effficient-kernel-approximation/src/main.py) -> Run the algorithm and create differents kernel matrices (based on MEKA, Nystrom and classic computation) and calculate the score for each of the matrix.
- - [meka.py](https://github.com/Marin35/memory-effficient-kernel-approximation/src/meka.py) -> Implementation of the MEKA algorithm, composed on the 3 steps.
- - [utils.py](https://github.com/Marin35/memory-effficient-kernel-approximation/src/utils.py) -> Functions such as the computation of gaussian kernel or the Nystrom approximation algorithm.
+ - [main.py](https://github.com/Marin35/memory-effficient-kernel-approximation/blob/master/src/main.py) -> Run the algorithm and create differents kernel matrices (based on MEKA, Nystrom and classic computation) and calculate the score for each of the matrix.
+ - [meka.py](https://github.com/Marin35/memory-effficient-kernel-approximation/blob/master/src/meka.py) -> Implementation of the MEKA algorithm, composed on the 3 steps.
+ - [utils.py](https://github.com/Marin35/memory-effficient-kernel-approximation/blob/master/src/utils.py) -> Functions such as the computation of gaussian kernel or the Nystrom approximation algorithm.
 
