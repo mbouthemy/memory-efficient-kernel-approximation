@@ -18,6 +18,13 @@ To install all this requirement you can run:
 pip install -r requirements.txt
 ```
 
+Then you can just run the main to get the meka algorithm working.
+
+```
+python main.py
+```
+
+
 ## Files structure
 The library contains the following files:
 
