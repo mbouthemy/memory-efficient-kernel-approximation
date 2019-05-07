@@ -5,13 +5,13 @@ from utils import get_kernel_matrix, nystorm_approximation
 from meka import Meka
 
 df = pd.read_csv('data/ijcnn1.csv', sep=',').iloc[:, 1:]
-df = df.sample(n=500, random_state=0)
-rank_k = 10
+df = df.sample(n=20000, random_state=0)
+rank_k = 128
 number_sample_m = 300
 
 gamma = 1
 
-number_clusters_c = 3
+number_clusters_c = 10
 # Do the Kmeans clustering and group data points based on that
 kmeans = KMeans(n_clusters=number_clusters_c, random_state=0).fit(df)
 

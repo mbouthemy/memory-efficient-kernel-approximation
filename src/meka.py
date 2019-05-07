@@ -118,3 +118,4 @@ class Meka:
 
         print('Construction of G_hat is finished.')
         return G_hat
+
